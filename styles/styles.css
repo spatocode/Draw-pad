@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(175, 191, 216), rgb(163, 241, 193), rgb(245, 188, 223));
+}
+.menu-bar {
+    width: 150px;
+    height: 75px;
+}
+.colorbar, .button {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.range {
+    width: 70%;
+}
+span {
+    position: relative;
+    bottom: 5px;
+}
