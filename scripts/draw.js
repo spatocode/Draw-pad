@@ -44,3 +44,10 @@ let Drawpad = {
         requestAnimationFrame(()=>{this.draw()});
     }
 }
+
+Drawpad.draw()
+document.onmousemove = Drawpad.mousemove
+drawSize.oninput = Drawpad.detectRange
+canvas.onmousedown = Drawpad.mousedown
+canvas.onmouseup = Drawpad.mouseup
+btn.onclick = Drawpad.eraseDrawing
